@@ -103,8 +103,8 @@ export default function Header() {
               href="#"
               className="hidden sm:inline-flex items-center space-x-2 px-5 py-2.5 text-xs font-semibold uppercase tracking-wider text-white bg-slate-900 hover:bg-slate-850 dark:bg-violet-600 dark:hover:bg-violet-700 rounded-full shadow-md hover:shadow-lg transition-all duration-300"
             >
-              <span>Resume</span>
-              <Download size={14} />
+              <span><a href="https://drive.google.com/file/d/1NWuMrRrLLFHdZgs0FLwA7LjtRL5JiA5P/view">Resume</a> </span>
+              <Download size={14} /> 
             </a>
 
             {/* Mobile Menu Button */}
@@ -185,8 +185,8 @@ export default function Header() {
                   href="#"
                   className="w-full flex items-center justify-center space-x-2 py-3.5 text-sm font-semibold uppercase tracking-wider text-white bg-slate-900 hover:bg-slate-800 dark:bg-violet-600 dark:hover:bg-violet-700 rounded-xl shadow-md hover:shadow-lg transition-all"
                 >
-                  <span>Resume</span>
-                  <Download size={16} />
+                  <span><a href="https://drive.google.com/file/d/1NWuMrRrLLFHdZgs0FLwA7LjtRL5JiA5P/view">Resume</a> </span>
+                  <Download size={16} /> 
                 </a>
               </div>
             </motion.div>
